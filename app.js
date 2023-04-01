@@ -33,3 +33,18 @@ app.post("/signup" , async(req,res)=>{
     await collection.insertMany([data])
 res.render("home")
 })
+app.post("/login" , async(req,res)=>{
+    try{
+      const check = await collection.findOne({name:req.body.name})
+      if (check.password===req.body.password) {
+        res.render("home")
+      }
+      else{
+        res.send("wrong password")
+      }
+    }
+    catch{
+     res.send("wrong details")
+    }
+
+})
