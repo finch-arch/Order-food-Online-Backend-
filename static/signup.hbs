@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Sign Up</title>
 </head>
 <body>
-    <h2>Sign Up</h2>
-    <form action="/signup" method="post">
-     <input type="text" name="name" placeholder="name">
-     <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Sign Up"/>
-    </form>  
+    <div class="form">
+      <div class="log">SignUp</log>
+    <form action="/signup" method="post" class="form1">
+     <input type="text" name="name" class="put" placeholder="Username">
+     <input type="password" name="password" class="put" placeholder="Password">
+    <input type="submit" class="put1" value="Sign In"/>
+    </form>
+    {{!-- <div class="newacc">Don't have an account yet</div>
+    <a href="/signup" class="acc">Create new account</a> --}}
+    </div> 
 </body>
 </html>

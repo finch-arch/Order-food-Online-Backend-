@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('Images/bg-01.jpg');
+    background-repeat: no-repeat;
+}
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 240px;
+   
+
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    margin:auto;
+    padding: 23px;
+    
+}
+.put{
+    padding: 23px;
+    border-radius: 40px;
+    margin-top: 9px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 15px;
+}
+.put1{
+   
+   width: 27%;
+   height: 32px;
+   margin: auto;
+    margin-top: 9px;
+    border-radius: 27px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 18px;
+
+}
+.log{
+    font-size: 47px;
+    margin-top: -23px;
+    font-family: 'Lily Script One', cursive;
+    color: rgb(239, 207, 207);
+}
+.form a{
+    margin-bottom: 17px;
+}
+.put1:hover{
+    background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+}
+.newacc{
+    font-family: 'Delicious Handrawn', cursive;
+    color: purple;
+    font-size: 22px;
+    margin-bottom: -22px;
+}
+.acc{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 18px;
+    color: green;
+    margin-top: 4px;
+}
