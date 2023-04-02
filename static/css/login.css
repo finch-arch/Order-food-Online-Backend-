@@ -1,0 +1,28 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('Images/bg-01.jpg');
+    background-repeat: no-repeat;
+}
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 240px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    margin:auto;
+    padding: 23px;
+}
+.put{
+    padding: 23px;
+    border-radius: 40px;
+    margin-top: 9px;
+}

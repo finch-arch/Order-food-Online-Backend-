@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Log In</title>
 </head>
 <body>
-    <h2>log in</h2>
-    <form action="/login" method="post">
-     <input type="text" name="name" placeholder="name">
-     <input type="password" name="password" placeholder="Password">
-    <input type="submit">
+    <div class="form">
+      <h2>Log in</h2>
+    <form action="/login" method="post" class="form1">
+     <input type="text" name="name" class="put" placeholder="name">
+     <input type="password" name="password" class="put" placeholder="Password">
+    <input type="submit" class="put" value="Sign In"/>
     </form>  
     <a href="/signup">Create new account</a>
+    </div> 
 </body>
 </html>

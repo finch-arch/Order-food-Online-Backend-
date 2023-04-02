@@ -6,7 +6,7 @@ const hbs = require("hbs")
 const collection = require("./mongod")
 const { stringify } = require('querystring');
 
-
+app.use(express.static(__dirname + '/static'));
 
 
 const tempelatePath = path.join(__dirname , '/static')
