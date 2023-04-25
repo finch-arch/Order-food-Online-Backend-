@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position:fixed;
+    padding: 23px 23px;
+    background-color: rgb(72, 68, 68);
+    top: 0px;
+    width: 100%;
+    
+}
+
+#navbar ul {
+    display: flex;
+    left: 3px;
+    right: 3px;
+}
+
+#navbar ul li{
+   list-style: none;
+   font-size: 1.0rem;
+   font-family: 'Angkor';
+   box-sizing: border-box;
+}
+#navbar ul li a{
+    color: rgb(19, 15, 15);
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+ }
+ #navbar::before{
+    content: "";
+    /* background-color: black; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+   
+ }
+ #navbar ul li a:hover{
+    color: rgb(17, 7, 7);
+    background-color: white;
+ 
+ }
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ #home::before{
+    content: "";
+    position: absolute;
+    background: url('Images/bg1.jpg')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.8;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+ }
+ #home h1{
+    color: rgb(6, 1, 1);
+    text-align: center;
+    
+ }
+ #home p{
+    color: black;
+    text-align: center;
+ }
+ .h-primary{
+    font-size: 3rem;
+    position: relative;
+    margin-top: 3px;
+    padding: 12px;
+   
+ }
+ .btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(219, 97, 97);
+    color: white;
+    margin: 17px;
+    border-radius: 12px;
+    cursor: pointer;
+ }
+ .center{
+   text-align: center;
+ }
+ .h-secondry{
+   font-size: 2rem;
+   padding: 12px;
+ }
+ #services{
+   margin: 36px;
+   display: flex;
+   font-family: 'Angkor';
+   font-size: 0.8rem;
+ }
+ #services .box{
+   border: 2px solid red;
+   padding: 20px;
+   margin: 23px;
+   border-radius: 23px;
+   background-color: rgb(243, 237, 237);
+ }
+ #services .box img{
+   height: 100px;
+   display: block;
+   margin: auto;
+ }
+ .contact{
+   display: flex;
+   text-align: center;
+ }
+.box1{
+ align-items: center;
+ margin-top: 14%;
+} 
+
+ .contact::before{
+   content: "";
+   position: absolute;
+   background: url('Images/bg2.jpg')no-repeat center center/cover;
+   height: 40%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.5;
+   
+}
+.text{
+   text-align: center;
+   margin-top: 1%;
+   color: aliceblue;
+   background-color: black;
+   margin-bottom: 3px;
+}
+.ic1 img{
+   width: 5%;
+}
+.ic2 img{
+   width: 3%;
+}

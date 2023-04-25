@@ -1,0 +1,25 @@
+#navbar{
+    flex-direction: row;
+ 
+}
+#navbar ul li a{
+    padding: 4px 3px;
+    
+}
+#home{
+    height:800px;
+    padding: 23px 23px;
+}
+#home h1{
+    font-size: 35px;
+}
+.h primary{
+    font-size: 23px;
+}
+#services{
+    flex-direction: column;
+}
+.contact{
+    align-items: center;
+    justify-content: flex-start;
+}
